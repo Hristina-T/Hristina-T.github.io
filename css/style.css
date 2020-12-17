@@ -4,6 +4,13 @@
     width:100%; 
 }
 
+#dugme1{
+    margin-left: 75%;
+    float: center;
+    width: 300px;
+    background:rgba(117, 50, 143, 0.637) ; 
+}
+
 .naslov{ 
     width:100%;
     margin:0 50px;
@@ -234,7 +241,7 @@ h2{
   /*---------galerija------------*/
 
   .galerija-wrap{
-    background-color: rgba(223, 234, 253, 0.473);
+    background-color: rgba(253, 223, 241, 0.473);
     height: 700px;
     width: 100%;
     display: flex;

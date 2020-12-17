@@ -3,7 +3,18 @@ function naVrh() {
     window.scrollTo(0, 0);
 }
 
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
 
+function changeColor() {
+    document.getElementById("header-main").style.background = getRandomColor();
+}
 
 var i = 0;
 var images = [];
