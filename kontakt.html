@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyShop | Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="header-wrap">
+        <div class="naslov">
+            <h1>BODY SHOP</h1>
+        </div>
+    </div>
+
+    <div class="menu-wrap">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="onama.html">O Nama</a></li>
+                <li><a href="kolekcije.html">Kolekcije</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="form-wrap">
+
+        <form id="forma" action="" method="post">
+
+            <p class="info">Ukoliko želite da se prijavite na našu Email listu, popunite sledeću formu:</p>
+            <p>
+                <label for="name">Ime <span>(obavezno, min 3 karaktera)</span></label>
+                <input id="name" name="name">
+            </p>
+            <p>
+                <label for="age">Godine <span>(min 18)</span></label>
+                <input id="age" name="age">
+            </p>
+            <p>
+                <label for="agree">Da li se slažete sa uslovima korišćenja? <span>(obavezno)</span></label>
+                <input type="checkbox" class="checkbox" id="agree" name="agree">
+            </p>
+            <p>
+                <label for="email">E-Mail <span>(obavezno)</span></label>
+                <input id="email" name="email">
+            </p>
+            <p>
+                <button type="submit">SUBMIT</button>
+            </p>
+        </form>
+
+    </div>
+
+    <div class="kolone_footer">
+        <div class="f-levo">
+            <p class="el" onclick="naVrh()"><em>Idi na vrh stranice</em></p>
+            <p class="el"><a href="kontakt.html"><em>Kontakt</em></a></p>
+            <p class="el"><a href="kolekcije.html"><em>Proizvodi</em></a></p>
+        </div>
+        <div class="f-desno">
+            <h4>Body Shop </h4>
+            <p><em>Tel: 069775541</em></p>
+            <p><em>Email: bodyshopsrbija@gmail.com</em></p>
+            <p><em>Radno vreme: 08-17h</em></p>
+        </div>
+
+    </div>
+
+
+    <script src="js/javascript.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

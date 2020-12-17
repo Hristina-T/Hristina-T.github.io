@@ -1,0 +1,247 @@
+.header-wrap{ 
+    background:rgba(15, 68, 117, 0.212) ; 
+    height:100px; 
+    width:100%; 
+}
+
+.naslov{ 
+    width:100%;
+    margin:0 50px;
+}
+
+.naslov h1{ 
+    color:#00003d;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size:45px; 
+    font-weight: 550; 
+    padding-top:20px; 
+    padding-bottom:20px;
+}
+
+/*------------ meni ----------------*/
+
+.menu-wrap{ 
+    background:rgba(15, 68, 117, 0.212) ;
+    overflow:hidden; 
+    width:100%;
+}
+
+.menu{ 
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    float: left;
+    width: 60%;
+}
+
+.menu ul li{ 
+    list-style:none; 
+    float:left;
+    width:100px; 
+    text-align:center; 
+    margin-right:10px;
+}
+
+.menu ul li a{ 
+    text-decoration:none; 
+    font-size:15px; 
+    font-weight:bold; 
+    text-transform:uppercase; 
+    text-align:left; 
+    display:block; 
+    color:#020507;
+}
+
+
+.menu ul li a.active{ 
+    color:#070604; 
+    width:80px; 
+    height:40px; 
+    color:#3f4e97;
+}
+
+
+
+/*------------ futer --------------*/
+
+.kolone_footer{
+    display: flex;
+    background-color: rgba(170, 175, 175, 0.493);
+    padding: 30px;
+}
+
+.f-levo {
+    list-style-type: none;
+    background-color: transparent;
+    margin: 10px;
+    flex: 50%;
+}
+
+.f-desno{
+    flex:50%;
+}
+
+
+.el {
+    background-color: transparent;
+    color:black;
+    width: 150px;
+    border: none;
+}
+
+.el:hover{
+    border-bottom: 0.5px solid black;
+}
+
+/*------------ content -------------*/
+
+.content-wrap{
+    background-color: rgba(223, 234, 253, 0.473);
+}
+
+.red{
+    display: flex;
+}
+
+.red:hover{
+    background:rgba(15, 68, 117, 0.212) ;
+}
+.kol-levo{
+    align-self: center;
+    flex: 35%;
+    margin: 70px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.kol-desno{
+    align-self: center;
+    flex: 40%;
+    margin: 50px 50px 50px 10%;
+    justify-content: right;
+}
+
+.naslov-reda{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/*------------ O NAMA ------------*/
+
+.about-wrap{
+    display: flex;
+}
+
+.tekst{
+    flex: 35%;
+    font-size: 20px;
+    margin: 40px 20px 20px 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+.slider{
+   flex: 50%;
+}
+
+#slide{
+    margin: 10px 30px 10px 120px; 
+}
+
+
+/*------------- forma -------------*/
+
+    .form-wrap{
+        background-color: rgba(223, 234, 253, 0.473);
+    }
+  
+  form, p {
+    margin: 20px;
+  }
+
+  .info{
+      font-weight: bold;
+      font-size: 20px;
+  }
+  
+  p.note {
+    font-size: 16px;
+    color: red;
+  }
+  
+  input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-family: 'Lato';
+    width: 300px;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  label {
+    width: 300px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  label span {
+    font-size: 16px;
+  }
+  
+  label.error {
+      color: red;
+      font-size: 16px;
+      display: block;
+      margin-top: 5px;
+  }
+  
+  label.error.fail-alert {
+      border: 2px solid red;
+      border-radius: 4px;
+      line-height: 1;
+      padding: 2px 0 6px 6px;
+      background: #ffe6eb;
+  }
+  
+  input.valid.success-alert {
+      border: 2px solid #4CAF50;
+      color: green;
+  }
+  
+  input.error{
+      border: 1px dashed red;
+      font-weight: 300;
+      color: red;
+  }
+  
+  [type="submit"], button{
+      margin-left: 0;
+      border-radius: 0;
+      background: black;
+      color: white;
+      border: none;
+      font-weight: 300;
+      padding: 10px 0;
+      line-height: 1;
+      width: 280px;
+  }
+
+  /*---------galerija------------*/
+
+  .galerija-wrap{
+    background-color: rgba(223, 234, 253, 0.473);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    float: center;
+    }
+
+  .fotorama{
+      margin: 10px 30% 10px 30%;
+      flex: 50%;
+  }
